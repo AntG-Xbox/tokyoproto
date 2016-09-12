@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let f of friends | async">
+        <app-friend [friend]="f"></app-friend>
+    </li>
+</ul>
